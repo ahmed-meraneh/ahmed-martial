@@ -32,6 +32,9 @@ const showingNavigationDropdown = ref(false);
                                 <NavLink :href="route('dashboard')" :active="route().current('dashboard')">
                                     Tableau de bord
                                 </NavLink>
+                                <NavLink :href="route('transaction.index')" :active="route().current('transaction.index')">
+                                    Virement et Transfert
+                                </NavLink>
                             </div>
                         </div>
 
